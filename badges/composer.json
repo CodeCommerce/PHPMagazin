@@ -1,0 +1,25 @@
+{
+  "name": "PhpMagazin/Badges",
+  "description": "Anzeige eines Artikel-Badges auf der Kategorie und Detailseite",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop", "PhpMagazin"],
+  "homepage": "https://www.codecommerce.de",
+  "license": [
+    "MIT"
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "PhpMagazin\\Badges\\": "../../../source/modules/phpmag/badges"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "extra": {
+    "oxideshop": {
+      "target-directory": "phpmag/badges"
+    }
+  },
+  "version": "1.0.0"
+}
